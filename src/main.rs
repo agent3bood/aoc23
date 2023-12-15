@@ -1,5 +1,5 @@
 use std::env;
-use advent23::{four, one, three, two};
+use advent23::{five, four, one, three, two};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -28,6 +28,11 @@ fn main() {
         4 => match part_num {
             1 => four::part1(),
             2 => four::part2(),
+            _ => panic!()
+        },
+        5 => match part_num {
+            1 => five::part1(),
+            2 => five::part2(),
             _ => panic!()
         },
         _ => panic!(),
