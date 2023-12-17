@@ -1,4 +1,4 @@
-use advent23::{five, four, one, seven, six, three, two};
+use advent23::{five, four, one, seven, seven_b, six, three, two};
 use std::env;
 
 fn main() {
@@ -42,7 +42,7 @@ fn main() {
         },
         7 => match part_num {
             1 => seven::part1(),
-            2 => seven::part2(),
+            2 => seven_b::part2(),
             _ => panic!(),
         },
         _ => panic!(),

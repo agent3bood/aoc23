@@ -11,3 +11,5 @@ pub mod six;
 mod utils;
 
 pub mod seven;
+
+pub mod seven_b;
