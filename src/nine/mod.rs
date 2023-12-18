@@ -78,7 +78,6 @@ fn extrapolate_back(line: &str) -> i64 {
 
     let mut extrapolated = 0;
     for row in matrex.iter().rev() {
-        let l = row.len();
         let first = row.get(0).unwrap();
         extrapolated = first - extrapolated;
     }
