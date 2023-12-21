@@ -6,6 +6,7 @@ pub mod one;
 pub mod seven;
 pub mod seven_b;
 pub mod six;
+pub mod ten;
 pub mod three;
 pub mod two;
 mod utils;
